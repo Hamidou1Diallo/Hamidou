@@ -1,0 +1,19 @@
+body{
+	background-color: #1695DA;
+	
+}
+
+iframe{
+	width: 1325px;
+}
+
+img{
+	width: 1325px;
+}
+footer p{
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	font-family: arian;
+}

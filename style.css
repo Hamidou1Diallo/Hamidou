@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.navbar{
+    margin: auto;
+    padding: auto;
+    background-color: black;
+}
+.max-width{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.menu li{
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-top: 15px;
+    width: 100px;
+}
+.menu a{
+    color: white;
+}
+.commande a{
+    color: white;
+}
+.adress{
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    width: 100px
+}
+.menu3{
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+.menu li:hover .menu3{
+    display: block;
+}
+.menu3 li{
+    width: 15%;
+    text-align: center;
+    display: block;
+}
+
+@keyframes glisse{
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-500px);
+    }
+
+    66% {
+        transform: translateX(-500px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/* sections plats */
+
+.item {
+    background-color: #1695DA;
+    margin: 20px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s all;
+    width: 50%
+}
+
+.item:hover {
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
+.item:hover {
+    transition: 0.3s all;
+    box-shadow: -8px 8px 2px 1px rgba(0, 0, 0, .1);
+}
+
+.item-infos {
+    padding: 20px;
+    line-height: 40px;
+}
+
+section {
+    padding: 100px;
+    font-family: algerian;
+}
+
+.item-infos h3 {
+    font-size: 25px;
+}
+
+.item-infos hr {
+    margin: 10px 0 10px 0;
+    opacity: 0.5;
+}
+
+p.prix {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+section img {
+    width: 300px;
+}
+
+.sous
+{
+    display: none;
+    position: absolute;
+}
+.menu li:hover .sous
+{
+    display: block; 
+}
+.sous li
+{
+    display: block;
+}
